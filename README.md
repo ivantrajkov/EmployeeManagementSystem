@@ -14,6 +14,7 @@ This project is an implementation of a CRUD-operations back-end and React front-
 <br>
 <h2>Some details of the code</h2>
 <p><b>Axios for sending simplified API requests</b></p>
+
 ```javascript
 import axios from "axios"
 
