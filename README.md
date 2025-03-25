@@ -8,4 +8,4 @@ This project is an implementation of a CRUD-operations back-end and React front-
 
 <h2>Showcase:</h2>
 <p><b>The interface of the app</b></p>
-<img src="images/Screenshot_3" alt="No Image alt">
+<img src="images/Screenshot_3.png" alt="No Image alt">
