@@ -4,7 +4,7 @@ import com.github.ivantrajkov.emsbackend.dto.EmployeeDto;
 import com.github.ivantrajkov.emsbackend.entity.Employee;
 
 public class EmployeeMapper {
-    public static EmployeeDto mapToEmployeeDto(Employee employee){
+    public static EmployeeDto mapToEmployeeDto(Employee employee) {
         return new EmployeeDto(
                 employee.getId(),
                 employee.getFirstName(),
@@ -13,7 +13,7 @@ public class EmployeeMapper {
         );
     }
 
-    public static Employee mapToEmployee(EmployeeDto employeeDto){
+    public static Employee mapToEmployee(EmployeeDto employeeDto) {
         return new Employee(
                 employeeDto.getId(),
                 employeeDto.getFirstName(),
