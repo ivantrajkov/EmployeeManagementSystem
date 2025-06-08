@@ -7,7 +7,7 @@ The back-end code is following the MVC design pattern.<br>
 The application is dockerized and can be easily started using "docker compose up"
 </p>
 <br>
-
+ 
 <h2>Showcase:</h2>
 <p><b>The interface of the app</b></p>
 <img src="pictures/Screenshot_3.png" alt="No Image alt">
