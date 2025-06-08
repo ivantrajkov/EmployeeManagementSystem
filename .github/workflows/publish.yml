@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-      IMAGE_FRONTEND: yourusername/ems-frontend
-      IMAGE_BACKEND: yourusername/ems-backend
+      IMAGE_FRONTEND: ivantrajkov/ems-frontend
+      IMAGE_BACKEND: ivantrajkov/ems-backend
 
     steps:
       - name: Checkout source code
@@ -32,11 +31,11 @@ jobs:
         with:
           context: ./employee_frontend
           push: true
-          tags: ${{ env.IMAGE_FRONTEND }}:latest
+          tags: ivantrajkov/ems-frontend:latest
 
       - name: Build and push Spring Boot backend
         uses: docker/build-push-action@v5
         with:
           context: ./ems-backend
           push: true
-          tags: ${{ env.IMAGE_BACKEND }}:latest
+          tags: ivantrajkov/ems-backend:latest
