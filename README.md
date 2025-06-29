@@ -5,7 +5,7 @@
 This application is an implementation of a CRUD-operations Java back-end and React front-end to showcase a simple system for managing employees.<br>
 The back-end code is following the MVC design pattern.<br>
 The application is dockerized and can be easily started using "docker compose up"
-</p>
+</p> 
 <br>
  
 <h2>Showcase:</h2>
